@@ -39,8 +39,6 @@ def password():
     password=generate_password()
     return jsonify(p=password)
 
-if __name__ == '__main__':
-    app.run(debug=True)
 
 
 
